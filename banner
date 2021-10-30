@@ -1,0 +1,11 @@
+#########################################
+#LAN-10.0.1.31/24 | Ubuntu 18.04.LTS.x64
+#Created [20211018-06h49p GMT+7]
+#########################################
+Linux Kernel: Linux srv012 4.15.0-159-generic #167-Ubuntu SMP Tue Sep 21 08:55:05 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+Linux Distro: DISTRIB_DESCRIPTION="Ubuntu 18.04.2 LTS"
+###lsblk -o NAME,FSTYPE,SIZE,MOUNTPOINT,LABEL
+###SERVICE: service --status-all | systemctl status <ServiceName> --no-pager;
+    systemctl disable <ServiceName> | systemctl enable <ServiceName>
+    systemctl stop <ServiceName> | systemctl start <ServiceName> | systemctl restart <ServiceName>    
+###SYNC [/opt/setup]: /opt/script/rsync-SETUP-[031]_2_[032-033-034-035].sh
